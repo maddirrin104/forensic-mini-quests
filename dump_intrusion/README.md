@@ -31,7 +31,7 @@ Tuy nhiên không thấy dấu hiệu bất thường. Ta tiếp tục dùng mal
 
 ![alt text](img3.png)
 
-Thấy có 2 process được dump ra với PID lần lượt là 2560 và 5392
+Thấy có 2 process được dump ra với PID lần lượt là 2560 và 5392, bằng mắt thường ta nhận thấy rằng không có gì đặc biệt ngoài mấy ký tự rời rạc không đọc được, cũng không nhận thấy có dấu hiệu gì của mã hóa
 Ta tiến hành dump các file được load vào tiến trình này và dùng grep để tìm những file đáng nghi nhưng kết quả không có gì:
 
 ```
@@ -84,4 +84,4 @@ Result:
 
 **FLAG{Dayum_this_is_secret_file}**
 
-Lúc đầu chỉ nghĩ là chỉ ra cái flag mồi FLAG{H... thôi mà ai ngờ ra luôn flag thật của đề :)))
+Lúc đầu nghĩ là chỉ ra cái flag mồi FLAG{H... thôi mà ai ngờ ra luôn flag thật của đề :)))
